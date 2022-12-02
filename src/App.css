@@ -131,7 +131,7 @@ h2 {
 
 .Panel-container {
   width: 20vw;
-  height: 23vw;
+  height: 26vw;
   border-style: solid;
   border-radius: 7px;
   border-color: black;
@@ -175,4 +175,21 @@ h2 {
 .Panel-cost {
   margin: 0;
   font-weight: 700;
+}
+
+.Reset-btn {
+  border-radius: 8px;
+  background-color: lightblue;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  cursor: pointer;
+  width: 7vw;
+  height: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  align-self: center;
+  margin-top: 1.7vw;
 }

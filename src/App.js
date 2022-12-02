@@ -14,6 +14,16 @@ function App() {
   const [weightSort, setWeightSort] = useState(true);
   const [priceSort, setPriceSort] = useState(false);
 
+  const reset = () => {
+    setFlying(false);
+    setFurry(false);
+    setShowFavorites(false);
+    setFavorites([]);
+    setFavoritesCosts(0);
+    setWeightSort(true);
+    setPriceSort(false);
+  }
+
   const addToFavorites = (id) => {
     let favoritesTemp = favorites;
     favoritesTemp.push(id);
@@ -33,9 +43,11 @@ function App() {
       const petB = PETS_DATA[b];
 
       if (weightSort) {
-        return petA.weight > petB.weight;
+        if (petA.weight > petB.weight) return 1;
+        else return -1;
       } else {
-        return petA.price > petB.price;
+        if (petA.price > petB.price) return 1;
+        else return -1;
       }
     });
 
@@ -105,12 +117,7 @@ function App() {
             <div className="Panel-checkbox-row">
               <p className="Panel-cost">Favorites Cost: ${favoritesCosts.toString()}</p>
             </div>
-            {/* <div className="Panel-checkbox-row">
-              <input type="checkbox" />
-              <p style="Panel-checkbox-style">
-                Flying
-              </p>
-            </div> */}
+            <btn className="Reset-btn" onClick={reset}>Reset</btn>
           </div>
         </div>
         <div className="Main-content">
