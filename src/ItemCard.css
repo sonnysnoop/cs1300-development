@@ -1,0 +1,9 @@
+.container {
+    width: 30vw;
+    height: 40vw;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2;
+    display: flex;
+    box-shadow: 2px black;
+}
