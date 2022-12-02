@@ -135,7 +135,7 @@ h2 {
   border-style: solid;
   border-radius: 7px;
   border-color: black;
-  border-width: 2;
+  border-width: 3px;
   display: flex;
   flex-direction: column;
   box-shadow: 6px 6px 6px black;
