@@ -43,7 +43,7 @@
   border-style: solid;
   border-radius: 7px;
   border-color: black;
-  border-width: 2;
+  border-width: 3px;
   display: flex;
   box-shadow: 6px 6px 6px black;
   background-color: white;
@@ -131,7 +131,7 @@ h2 {
 
 .Panel-container {
   width: 20vw;
-  height: 30vw;
+  height: 23vw;
   border-style: solid;
   border-radius: 7px;
   border-color: black;
