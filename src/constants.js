@@ -7,7 +7,12 @@ export const PETS_DATA = {
         price: 2500,
         flying: true,
         furry: true,
-        id: 0
+        id: 0,
+        description: "Really loves trees and rides a cat bus...",
+        description2: "Needs to live near park",
+        themeColor: "#5b4e45",
+        textColor: "white",
+        youtubeEmbed: "igVXQT4HrEo"
     },
     1: {
         name: "Ponyo",
@@ -16,7 +21,12 @@ export const PETS_DATA = {
         price: 4000,
         flying: false,
         furry: false,
-        id: 1
+        id: 1,
+        description: "Really likes ham and can run on water...",
+        description2: "Needs to live near ocean",
+        themeColor: "#bc435b",
+        textColor: "white",
+        youtubeEmbed: "Syqy1MQyLL0"
     },
     2: {
         name: "Peppa Pig",
@@ -25,7 +35,12 @@ export const PETS_DATA = {
         price: 1000000,
         flying: false,
         furry: false,
-        id: 2
+        id: 2,
+        description: "Most intelligent organism ever created...",
+        description2: "Needs to live near mud",
+        themeColor: "#f18da1",
+        textColor: "black",
+        youtubeEmbed: "jil0WCh_UoQ"
     },
     3: {
         name: "Mordecai",
@@ -34,7 +49,12 @@ export const PETS_DATA = {
         price: 5,
         flying: true,
         furry: false,
-        id: 3
+        id: 3,
+        description: "Really good at getting into trouble...",
+        description2: "Needs to live near a raccoon",
+        themeColor: "#8bb2fa",
+        textColor: "black",
+        youtubeEmbed: "XXrHjcT1QS4"
     },
     4: {
         name: "Arthur",
@@ -43,7 +63,12 @@ export const PETS_DATA = {
         price: 100,
         flying: false,
         furry: true,
-        id: 4
+        id: 4,
+        description: "Sassy but generally friendly and cool...",
+        description2: "Needs to live in a neighborhood",
+        themeColor: "#f9ca51",
+        textColor: "black",
+        youtubeEmbed: "B8Wogq4WXTk"
     },
     5: {
         name: "Tyrone",
@@ -52,7 +77,12 @@ export const PETS_DATA = {
         price: 250,
         flying: false,
         furry: false,
-        id: 5
+        id: 5,
+        description: "Great follower and listening skills...",
+        description2: "Needs to live near a penguin",
+        themeColor: "#b45421",
+        textColor: "white",
+        youtubeEmbed: "6xGfhnLumJs"
     },
     6: {
         name: "Mike Wazowski",
@@ -61,7 +91,12 @@ export const PETS_DATA = {
         price: 80,
         flying: false,
         furry: false,
-        id: 6
+        id: 6,
+        description: "Unpredictable and easily distracted...",
+        description2: "Needs to be a sidekick",
+        themeColor: "#95891a",
+        textColor: "white",
+        youtubeEmbed: "dJWm0TWH7d0"
     },
     7: {
         name: "Crush",
@@ -70,7 +105,12 @@ export const PETS_DATA = {
         price: 900,
         flying: false,
         furry: false,
-        id: 7
+        id: 7,
+        description: "Really chill and great therapist...",
+        description2: "Needs to live by current",
+        themeColor: "#7d8f60",
+        textColor: "white",
+        youtubeEmbed: "5FNHtNEshk8"
     },
     8: {
         name: "Barry B Benson",
@@ -79,7 +119,12 @@ export const PETS_DATA = {
         price: 1,
         flying: true,
         furry: true,
-        id: 8
+        id: 8,
+        description: "Super rebellious and annoying...",
+        description2: "Needs to live in city",
+        themeColor: "#f9b859",
+        textColor: "black",
+        youtubeEmbed: "L46syxgju18"
     },
     9: {
         name: "Flash Slothmore",
@@ -88,7 +133,12 @@ export const PETS_DATA = {
         price: 20,
         flying: false,
         furry: true,
-        id: 9
+        id: 9,
+        description: "Slow but has great humor and jokes...",
+        description2: "Needs to live near DMV",
+        themeColor: "#6c5234",
+        textColor: "white",
+        youtubeEmbed: "4aUC1VZQE1E"
     },
     10: {
         name: "Gromit",
@@ -98,6 +148,11 @@ export const PETS_DATA = {
         flying: false,
         furry: true,
         id: 10,
+        description: "Really likes cheese and crackers...",
+        description2: "Needs Wallace",
+        themeColor: "#b5aea2",
+        textColor: "black",
+        youtubeEmbed: "T0qagA4_eVQ"
     },
     11: {
         name: "Alvin",
@@ -106,6 +161,11 @@ export const PETS_DATA = {
         price: .5,
         flying: false,
         furry: true,
-        id: 11
+        id: 11,
+        description: "Terrible singer but won't stop singing...",
+        description2: "Needs undeserved attention",
+        themeColor: "#be211f",
+        textColor: "yellow",
+        youtubeEmbed: "p0BpMFTYFpU"
     },
 }

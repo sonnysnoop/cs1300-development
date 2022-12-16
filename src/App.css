@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Alata');
+
 .App {
   display: flex;
   flex-direction: column;
@@ -39,7 +41,7 @@
 
 .Card-container {
   width: 20vw;
-  height: 31vw;
+  height: 31.5vw;
   border-style: solid;
   border-radius: 7px;
   border-color: black;
@@ -50,6 +52,8 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 2vw;
+  cursor: pointer;
+  font-family: Alata;
 }
 
 .Card-img {
@@ -57,6 +61,19 @@
   height: 18vw;
   border-radius: 7px;
   margin-top: 1vw;
+}
+
+.Card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 7px;
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  font-weight: 800;
+  padding: 2vw;
 }
 
 .Card-text-container {
@@ -192,4 +209,112 @@ h2 {
   font-weight: 700;
   align-self: center;
   margin-top: 1.7vw;
+}
+
+.ItemPage-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Pet-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  height: 40vw;
+  border-radius: 1vw;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  outline: 0;
+  background-color: white;
+}
+
+.Pet-modal-x {
+  position: absolute;
+  top: .8vw;
+  right: 1.6vw;
+  font-size: 1.7rem;
+  font-weight: 800;
+  cursor: pointer;
+
+}
+
+.Pet-modal-x:hover {
+  color: #777777;
+}
+
+.Pet-modal-img {
+  width: 19vw;
+  height: 19vw;
+  margin-top: 3vw;
+  border-style: solid;
+  border-color: black;
+  align-self: center;
+}
+
+.Pet-modal-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+}
+
+.Pet-modal-right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 30vw;
+  margin-top: 5vw;
+  justify-content: space-between;
+}
+
+.Pet-modal-name {
+  display: flex;
+  align-self: center;
+  font-family: Alata;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-top: .5vw;
+}
+
+.Pet-modal-description {
+  display: flex;
+  width: 16vw;
+  align-self: center;
+  font-family: Alata;
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 1.7vw;
+  border-radius: 1vw;
+  margin-top: 2vw;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.Modal-heart-btn {
+  width: 17.5vw;
+  height: 4.5vw;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 2;
+  margin-top: 0;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  align-self: center;
+}
+
+.Modal-heart-btn-txt {
+  color: black;
+  font-weight: 700;
+  user-select: none;
+  font-size: 1.3rem;
 }
