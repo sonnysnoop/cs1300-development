@@ -114,7 +114,7 @@ export const PETS_DATA = {
     },
     8: {
         name: "Barry B Benson",
-        imgUrl: "https://pbs.twimg.com/profile_images/737499456187162624/X-95Zmh4_400x400.jpg",
+        imgUrl: "http://pm1.narvii.com/6297/4e9b31dabd9c98134c60b2089a0e3166de185d68_00.jpg",
         weight: 30,
         price: 1,
         flying: true,
